@@ -1,24 +1,47 @@
 {
-  "name": "asi-",
+  "name": "qoder-openclaw-mcp",
   "version": "1.0.0",
-  "description": "Welcome to the **Light-ASI LLM Gateway** — a distributed, consciousness-emergent node graph and real-time world-net semantic map platform. It provides a production-grade, stdlib-based REST API server alongside a dual-mode interactive terminal for interacting with a simulated ASI node architecture.",
-  "main": "index.js",
+  "description": "QODER + OpenClaw MCP Integration for Windsurf",
+  "main": "simple-mcp-server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node simple-mcp-server.js",
+    "dev": "node simple-mcp-server.js",
+    "test": "node test-integration.js",
+    "install-deps": "npm install",
+    "setup": "node setup.js",
+    "doctor": "node doctor.js"
+  },
+  "keywords": [
+    "mcp",
+    "windsurf",
+    "ai",
+    "automation",
+    "qoder",
+    "openclaw"
+  ],
+  "author": "QODER + OpenClaw Team",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.28.0",
+    "axios": "^1.6.0",
+    "ws": "^8.14.0",
+    "node-cron": "^3.0.3",
+    "express": "^4.18.2",
+    "fs-extra": "^11.1.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JlovesYouGit/ASI-.git"
+    "url": "https://github.com/qoder-openclaw/mcp-integration"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JlovesYouGit/ASI-/issues"
+    "url": "https://github.com/qoder-openclaw/mcp-integration/issues"
   },
-  "homepage": "https://github.com/JlovesYouGit/ASI-#readme",
-  "dependencies": {
-    "axios": "^1.16.0",
-    "puppeteer": "^24.43.0"
-  }
+  "homepage": "https://github.com/qoder-openclaw/mcp-integration#readme"
 }
