@@ -1,0 +1,6 @@
+{
+  "macWhitelist": [],
+  "blockedMACs": [],
+  "trustedDevices": [],
+  "securityLevel": "HIGH"
+}

@@ -1,0 +1,331 @@
+{
+  "timestamp": "2026-03-28T19:22:42.624Z",
+  "summary": {
+    "maskedIP": "218be1669310d1e6b2b81e4b6e18d381551a5031b68392b077642999c70f76b7",
+    "originalIP": "181.36.105.158",
+    "totalDevices": 17,
+    "trustedDevices": 0,
+    "blockedDevices": 0,
+    "whitelistedDevices": 0,
+    "newlyBlockedDevices": 0,
+    "ethernetAdapters": 7,
+    "securityLevel": "LOW"
+  },
+  "details": {
+    "ipMasking": {
+      "original": "181.36.105.158",
+      "layer1": "59145066646a03062280049c8381ce09d0e4c1559a86658ff945818c119ee4ee",
+      "layer2": "61b1b911ba10d6a4a5b51958061156046ab4edd5e9f22f9e2ef7d692ab380ff4",
+      "layer3": "218be1669310d1e6b2b81e4b6e18d381551a5031b68392b077642999c70f76b7",
+      "timestamp": "2026-03-28T19:22:40.121Z",
+      "salts": {
+        "layer1": "f702785f...",
+        "layer2": "bb30f536...",
+        "layer3": "c80c5131..."
+      }
+    },
+    "networkDevices": [
+      {
+        "ip": "172.20.47.255",
+        "mac": "",
+        "timestamp": "2026-03-28T19:22:40.264Z",
+        "trusted": false,
+        "blocked": false
+      },
+      {
+        "ip": "224.0.0.2",
+        "mac": "",
+        "timestamp": "2026-03-28T19:22:40.264Z",
+        "trusted": false,
+        "blocked": false
+      },
+      {
+        "ip": "224.0.0.22",
+        "mac": "",
+        "timestamp": "2026-03-28T19:22:40.264Z",
+        "trusted": false,
+        "blocked": false
+      },
+      {
+        "ip": "224.0.0.251",
+        "mac": "",
+        "timestamp": "2026-03-28T19:22:40.264Z",
+        "trusted": false,
+        "blocked": false
+      },
+      {
+        "ip": "224.0.0.252",
+        "mac": "",
+        "timestamp": "2026-03-28T19:22:40.264Z",
+        "trusted": false,
+        "blocked": false
+      },
+      {
+        "ip": "239.255.255.250",
+        "mac": "",
+        "timestamp": "2026-03-28T19:22:40.264Z",
+        "trusted": false,
+        "blocked": false
+      },
+      {
+        "ip": "255.255.255.255",
+        "mac": "",
+        "timestamp": "2026-03-28T19:22:40.264Z",
+        "trusted": false,
+        "blocked": false
+      },
+      {
+        "ip": "192.168.1.1",
+        "mac": "",
+        "timestamp": "2026-03-28T19:22:40.264Z",
+        "trusted": false,
+        "blocked": false
+      },
+      {
+        "ip": "192.168.1.136",
+        "mac": "",
+        "timestamp": "2026-03-28T19:22:40.264Z",
+        "trusted": false,
+        "blocked": false
+      },
+      {
+        "ip": "192.168.1.141",
+        "mac": "",
+        "timestamp": "2026-03-28T19:22:40.264Z",
+        "trusted": false,
+        "blocked": false
+      },
+      {
+        "ip": "192.168.1.255",
+        "mac": "",
+        "timestamp": "2026-03-28T19:22:40.264Z",
+        "trusted": false,
+        "blocked": false
+      },
+      {
+        "ip": "224.0.0.2",
+        "mac": "",
+        "timestamp": "2026-03-28T19:22:40.264Z",
+        "trusted": false,
+        "blocked": false
+      },
+      {
+        "ip": "224.0.0.22",
+        "mac": "",
+        "timestamp": "2026-03-28T19:22:40.264Z",
+        "trusted": false,
+        "blocked": false
+      },
+      {
+        "ip": "224.0.0.251",
+        "mac": "",
+        "timestamp": "2026-03-28T19:22:40.264Z",
+        "trusted": false,
+        "blocked": false
+      },
+      {
+        "ip": "224.0.0.252",
+        "mac": "",
+        "timestamp": "2026-03-28T19:22:40.264Z",
+        "trusted": false,
+        "blocked": false
+      },
+      {
+        "ip": "239.255.255.250",
+        "mac": "",
+        "timestamp": "2026-03-28T19:22:40.264Z",
+        "trusted": false,
+        "blocked": false
+      },
+      {
+        "ip": "255.255.255.255",
+        "mac": "",
+        "timestamp": "2026-03-28T19:22:40.264Z",
+        "trusted": false,
+        "blocked": false
+      }
+    ],
+    "macFiltering": [
+      {
+        "mac": "",
+        "status": "INVALID",
+        "action": "SKIPPED",
+        "reason": "Invalid MAC format"
+      },
+      {
+        "mac": "",
+        "status": "INVALID",
+        "action": "SKIPPED",
+        "reason": "Invalid MAC format"
+      },
+      {
+        "mac": "",
+        "status": "INVALID",
+        "action": "SKIPPED",
+        "reason": "Invalid MAC format"
+      },
+      {
+        "mac": "",
+        "status": "INVALID",
+        "action": "SKIPPED",
+        "reason": "Invalid MAC format"
+      },
+      {
+        "mac": "",
+        "status": "INVALID",
+        "action": "SKIPPED",
+        "reason": "Invalid MAC format"
+      },
+      {
+        "mac": "",
+        "status": "INVALID",
+        "action": "SKIPPED",
+        "reason": "Invalid MAC format"
+      },
+      {
+        "mac": "",
+        "status": "INVALID",
+        "action": "SKIPPED",
+        "reason": "Invalid MAC format"
+      },
+      {
+        "mac": "",
+        "status": "INVALID",
+        "action": "SKIPPED",
+        "reason": "Invalid MAC format"
+      },
+      {
+        "mac": "",
+        "status": "INVALID",
+        "action": "SKIPPED",
+        "reason": "Invalid MAC format"
+      },
+      {
+        "mac": "",
+        "status": "INVALID",
+        "action": "SKIPPED",
+        "reason": "Invalid MAC format"
+      },
+      {
+        "mac": "",
+        "status": "INVALID",
+        "action": "SKIPPED",
+        "reason": "Invalid MAC format"
+      },
+      {
+        "mac": "",
+        "status": "INVALID",
+        "action": "SKIPPED",
+        "reason": "Invalid MAC format"
+      },
+      {
+        "mac": "",
+        "status": "INVALID",
+        "action": "SKIPPED",
+        "reason": "Invalid MAC format"
+      },
+      {
+        "mac": "",
+        "status": "INVALID",
+        "action": "SKIPPED",
+        "reason": "Invalid MAC format"
+      },
+      {
+        "mac": "",
+        "status": "INVALID",
+        "action": "SKIPPED",
+        "reason": "Invalid MAC format"
+      },
+      {
+        "mac": "",
+        "status": "INVALID",
+        "action": "SKIPPED",
+        "reason": "Invalid MAC format"
+      },
+      {
+        "mac": "",
+        "status": "INVALID",
+        "action": "SKIPPED",
+        "reason": "Invalid MAC format"
+      }
+    ],
+    "ethernetUpdates": [
+      {
+        "adapter": "MACAddress",
+        "status": "ERROR",
+        "action": "FAILED",
+        "reason": "Command failed: netsh interface set interface \"MACAddress\" enable\n",
+        "mac": "Name"
+      },
+      {
+        "adapter": "E8:48:B8:C8:20:00",
+        "status": "ERROR",
+        "action": "FAILED",
+        "reason": "Command failed: netsh interface set interface \"E8:48:B8:C8:20:00\" enable\n",
+        "mac": "Bluetooth Device (Personal Area Network)"
+      },
+      {
+        "adapter": "42:AA:20:52:41:53",
+        "status": "ERROR",
+        "action": "FAILED",
+        "reason": "Command failed: netsh interface set interface \"42:AA:20:52:41:53\" enable\n",
+        "mac": "WAN Miniport (IP)"
+      },
+      {
+        "adapter": "46:71:20:52:41:53",
+        "status": "ERROR",
+        "action": "FAILED",
+        "reason": "Command failed: netsh interface set interface \"46:71:20:52:41:53\" enable\n",
+        "mac": "WAN Miniport (IPv6)"
+      },
+      {
+        "adapter": "48:4D:20:52:41:53",
+        "status": "ERROR",
+        "action": "FAILED",
+        "reason": "Command failed: netsh interface set interface \"48:4D:20:52:41:53\" enable\n",
+        "mac": "WAN Miniport (Network Monitor)"
+      },
+      {
+        "adapter": "Unknown",
+        "status": "ERROR",
+        "action": "FAILED",
+        "reason": "Command failed: netsh interface set interface \"Unknown\" enable\n",
+        "mac": "Hyper-V Virtual Switch Extension Adapter"
+      },
+      {
+        "adapter": "FC:9D:05:04:C1:56",
+        "status": "ERROR",
+        "action": "FAILED",
+        "reason": "Command failed: netsh interface set interface \"FC:9D:05:04:C1:56\" enable\n",
+        "mac": "Realtek PCIe GbE Family Controller #3"
+      }
+    ]
+  },
+  "configuration": {
+    "macWhitelist": [],
+    "blockedMACs": [],
+    "securitySettings": {
+      "macWhitelist": [],
+      "blockedMACs": [],
+      "trustedDevices": [],
+      "securityLevel": "HIGH"
+    }
+  },
+  "recommendations": [
+    {
+      "priority": "MEDIUM",
+      "action": "Fix 7 Ethernet adapter issues",
+      "reason": "Some adapters failed to update"
+    },
+    {
+      "priority": "MEDIUM",
+      "action": "Review MAC whitelist regularly",
+      "reason": "Maintain current device inventory"
+    },
+    {
+      "priority": "LOW",
+      "action": "Monitor network traffic patterns",
+      "reason": "Detect anomalous behavior early"
+    }
+  ]
+}
