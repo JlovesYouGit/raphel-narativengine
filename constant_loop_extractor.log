@@ -1,0 +1,61 @@
+2026-06-13 12:45:23,086 - model_retraining_integration - INFO - Model Retraining Integrator initialized
+2026-06-13 12:45:23,089 - __main__ - INFO - Complete Model Integration System initialized
+2026-06-13 12:45:23,091 - __main__ - INFO - Initializing complete model integration system...
+2026-06-13 12:45:23,094 - constant_loop_data_extractor - INFO - Initializing constant loop data extractor...
+2026-06-13 12:45:25,595 - constant_loop_data_extractor - ERROR - Authentication error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2026-06-13 12:45:25,598 - constant_loop_data_extractor - INFO - Constant loop data extractor initialized
+2026-06-13 12:45:25,599 - __main__ - INFO - Complete model integration system initialized
+2026-06-13 12:45:25,601 - __main__ - INFO - Loading model for imprinting: n:\lossless agi\installed_models\unified_model_031bd6454a85a28b\wan_t2v.gguf
+2026-06-13 12:45:25,603 - gguf_model_integration - INFO - Loading GGUF model: n:\lossless agi\installed_models\unified_model_031bd6454a85a28b\wan_t2v.gguf
+2026-06-13 12:45:25,607 - gguf_model_integration - WARNING - File n:\lossless agi\installed_models\unified_model_031bd6454a85a28b\wan_t2v.gguf is a Git LFS pointer. Actual model file needs to be downloaded.
+2026-06-13 12:45:25,609 - gguf_model_integration - INFO - Successfully loaded model with 0 tensors
+2026-06-13 12:45:25,611 - __main__ - INFO - Successfully loaded model: c632d2632424707a
+2026-06-13 12:45:25,613 - __main__ - INFO - Starting integration pipeline for model c632d2632424707a
+2026-06-13 12:45:25,615 - model_retraining_integration - INFO - Registered model: c632d2632424707a with ID: 264e27d34b4ef9ef
+2026-06-13 12:45:25,617 - constant_loop_data_extractor - INFO - Constant function loop started
+2026-06-13 12:45:25,621 - __main__ - INFO - Integration pipeline started
+2026-06-13 12:45:25,623 - __main__ - INFO - Integration pipeline running, waiting 30 seconds...
+2026-06-13 12:45:25,625 - constant_loop_data_extractor - INFO - Starting extraction cycle...
+2026-06-13 12:45:25,629 - constant_loop_data_extractor - ERROR - Query error: Timeout context manager should be used inside a task
+2026-06-13 12:45:25,633 - constant_loop_data_extractor - ERROR - Search error: Timeout context manager should be used inside a task
+2026-06-13 12:45:25,634 - constant_loop_data_extractor - WARNING - Extraction cycle completed with no data
+2026-06-13 12:45:30,637 - constant_loop_data_extractor - INFO - Starting extraction cycle...
+2026-06-13 12:45:30,641 - constant_loop_data_extractor - ERROR - Query error: Timeout context manager should be used inside a task
+2026-06-13 12:45:30,644 - constant_loop_data_extractor - ERROR - Search error: Timeout context manager should be used inside a task
+2026-06-13 12:45:30,645 - constant_loop_data_extractor - WARNING - Extraction cycle completed with no data
+2026-06-13 12:45:35,649 - constant_loop_data_extractor - INFO - Starting extraction cycle...
+2026-06-13 12:45:35,651 - constant_loop_data_extractor - ERROR - Query error: Timeout context manager should be used inside a task
+2026-06-13 12:45:35,655 - constant_loop_data_extractor - ERROR - Search error: Timeout context manager should be used inside a task
+2026-06-13 12:45:35,657 - constant_loop_data_extractor - WARNING - Extraction cycle completed with no data
+2026-06-13 12:45:40,660 - constant_loop_data_extractor - INFO - Starting extraction cycle...
+2026-06-13 12:45:40,663 - constant_loop_data_extractor - ERROR - Query error: Timeout context manager should be used inside a task
+2026-06-13 12:45:40,665 - constant_loop_data_extractor - ERROR - Search error: Timeout context manager should be used inside a task
+2026-06-13 12:45:40,667 - constant_loop_data_extractor - WARNING - Extraction cycle completed with no data
+2026-06-13 12:45:45,671 - constant_loop_data_extractor - INFO - Starting extraction cycle...
+2026-06-13 12:45:45,674 - constant_loop_data_extractor - ERROR - Query error: Timeout context manager should be used inside a task
+2026-06-13 12:45:45,678 - constant_loop_data_extractor - ERROR - Search error: Timeout context manager should be used inside a task
+2026-06-13 12:45:45,681 - constant_loop_data_extractor - WARNING - Extraction cycle completed with no data
+2026-06-13 12:45:50,684 - constant_loop_data_extractor - INFO - Starting extraction cycle...
+2026-06-13 12:45:50,686 - constant_loop_data_extractor - ERROR - Query error: Timeout context manager should be used inside a task
+2026-06-13 12:45:50,689 - constant_loop_data_extractor - ERROR - Search error: Timeout context manager should be used inside a task
+2026-06-13 12:45:50,691 - constant_loop_data_extractor - WARNING - Extraction cycle completed with no data
+2026-06-13 12:45:55,627 - __main__ - INFO - Running imprinting cycle #1
+2026-06-13 12:45:55,629 - constant_loop_data_extractor - INFO - Prepared 0 weight sets for retraining
+2026-06-13 12:45:55,632 - __main__ - WARNING - No imprinted weights available for imprinting
+2026-06-13 12:45:55,695 - constant_loop_data_extractor - INFO - Starting extraction cycle...
+2026-06-13 12:45:55,697 - constant_loop_data_extractor - ERROR - Query error: Timeout context manager should be used inside a task
+2026-06-13 12:45:55,701 - constant_loop_data_extractor - ERROR - Search error: Timeout context manager should be used inside a task
+2026-06-13 12:45:55,702 - constant_loop_data_extractor - WARNING - Extraction cycle completed with no data
+2026-06-13 12:45:57,969 - constant_loop_data_extractor - ERROR - Stats error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2026-06-13 12:46:00,272 - constant_loop_data_extractor - ERROR - Emerge status error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2026-06-13 12:46:00,706 - constant_loop_data_extractor - INFO - Starting extraction cycle...
+2026-06-13 12:46:00,710 - constant_loop_data_extractor - ERROR - Query error: Timeout context manager should be used inside a task
+2026-06-13 12:46:00,713 - constant_loop_data_extractor - ERROR - Search error: Timeout context manager should be used inside a task
+2026-06-13 12:46:00,715 - constant_loop_data_extractor - WARNING - Extraction cycle completed with no data
+2026-06-13 12:46:02,570 - constant_loop_data_extractor - ERROR - Health check error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2026-06-13 12:46:02,578 - __main__ - INFO - Shutting down complete model integration system...
+2026-06-13 12:46:05,717 - constant_loop_data_extractor - INFO - Constant function loop stopped
+2026-06-13 12:46:05,719 - constant_loop_data_extractor - INFO - Shutting down constant loop data extractor...
+2026-06-13 12:46:05,722 - constant_loop_data_extractor - INFO - Constant function loop stopped
+2026-06-13 12:46:05,724 - constant_loop_data_extractor - INFO - Shutdown complete
+2026-06-13 12:46:05,726 - __main__ - INFO - Shutdown complete

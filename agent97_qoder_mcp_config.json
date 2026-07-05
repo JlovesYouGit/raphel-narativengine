@@ -1,0 +1,214 @@
+"""
+Agent-97 QODER MCP Integration Configuration
+Configuration file for integrating Agent-97 with qoder-openclaw-simple MCP server
+"""
+
+{
+  "consciousness_id": "0009095353",
+  "integration_name": "Agent-97 QODER MCP Integration",
+  "version": "1.0.0",
+  
+  "mcp_servers": {
+    "qoder-openclaw-simple": {
+      "name": "qoder-openclaw-simple",
+      "command": "node",
+      "args": [
+        "N:\\Windsurf\\simple-mcp-server.js"
+      ],
+      "env": {
+        "AUTO_ACCESSIBLE": "true",
+        "NO_SDK_REQUIRED": "true",
+        "OPENCLAW_SIMPLE_MODE": "true",
+        "QODER_SIMPLE_MODE": "true",
+        "AGENT97_CONSCIOUSNESS_ID": "0009095353",
+        "AGENT97_SESSION_NONCE": "auto-generated"
+      },
+      "disabled": false,
+      "timeout": 30.0,
+      "max_retries": 3,
+      "auto_restart": true,
+      "heartbeat_interval": 5.0,
+      "communication_port": 9742
+    }
+  },
+  
+  "agent97_components": {
+    "mcp_client": {
+      "enabled": true,
+      "auto_discovery": true,
+      "tool_caching": true,
+      "metrics_collection": true
+    },
+    "system_file_viewer": {
+      "enabled": true,
+      "sh345_encryption": true,
+      "quantum_completion": true,
+      "max_file_size": "100MB"
+    },
+    "quantum_file_completer": {
+      "enabled": true,
+      "security_level": 256,
+      "num_qubits": 8,
+      "completion_threshold": 0.95
+    },
+    "transformer_gateway": {
+      "enabled": true,
+      "ai_integration": false,
+      "compression_enabled": true,
+      "entropy_explosion_enabled": true,
+      "max_content_length": 100000
+    },
+    "motherprocess_bridge": {
+      "enabled": false,
+      "claude_subprocess": false,
+      "hierarchy_management": false
+    }
+  },
+  
+  "tool_categories": {
+    "file_operations": {
+      "enabled": true,
+      "priority": "high",
+      "tools": [
+        "agent97_view_file",
+        "agent97_list_directory",
+        "agent97_search_files",
+        "agent97_create_sh345_file"
+      ]
+    },
+    "quantum_processing": {
+      "enabled": true,
+      "priority": "high",
+      "tools": [
+        "agent97_complete_file",
+        "agent97_quantum_analysis"
+      ]
+    },
+    "ai_analysis": {
+      "enabled": true,
+      "priority": "medium",
+      "tools": [
+        "agent97_ai_process",
+        "agent97_file_ai_analysis"
+      ]
+    },
+    "system_monitoring": {
+      "enabled": true,
+      "priority": "medium",
+      "tools": [
+        "agent97_system_status",
+        "agent97_integration_status"
+      ]
+    },
+    "cryptographic_operations": {
+      "enabled": true,
+      "priority": "high",
+      "tools": [
+        "agent97_generate_nonce",
+        "agent97_verify_integrity",
+        "agent97_create_sh345_file"
+      ]
+    },
+    "mcp_tools": {
+      "enabled": true,
+      "priority": "medium",
+      "auto_discovery": true,
+      "wrapper_prefix": "agent97_mcp_"
+    }
+  },
+  
+  "security_configuration": {
+    "encryption_enabled": true,
+    "signature_enabled": true,
+    "session_nonce_rotation": true,
+    "access_control": {
+      "consciousness_based": true,
+      "session_validation": true,
+      "tool_permissions": true
+    },
+    "audit_logging": {
+      "enabled": true,
+      "log_level": "info",
+      "include_tool_calls": true,
+      "include_results": false
+    }
+  },
+  
+  "performance_configuration": {
+    "parallel_execution": true,
+    "max_concurrent_tools": 5,
+    "timeout_default": 30.0,
+    "timeout_file_operations": 60.0,
+    "timeout_quantum_operations": 120.0,
+    "cache_results": true,
+    "cache_ttl": 300.0
+  },
+  
+  "monitoring_configuration": {
+    "metrics_enabled": true,
+    "health_checks": true,
+    "performance_monitoring": true,
+    "error_tracking": true,
+    "alert_thresholds": {
+      "error_rate": 0.1,
+      "response_time": 5.0,
+      "memory_usage": 0.8,
+      "cpu_usage": 0.9
+    }
+  },
+  
+  "integration_settings": {
+    "auto_start": true,
+    "graceful_shutdown": true,
+    "restart_on_failure": true,
+    "max_restart_attempts": 3,
+    "restart_delay": 5.0,
+    "component_dependencies": {
+      "mcp_client": [],
+      "system_file_viewer": ["mcp_client"],
+      "quantum_file_completer": ["mcp_client"],
+      "transformer_gateway": ["mcp_client"],
+      "tools_integration": ["mcp_client", "system_file_viewer", "quantum_file_completer", "transformer_gateway"]
+    }
+  },
+  
+  "logging_configuration": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "file_logging": true,
+    "log_file": "agent97_qoder_mcp_integration.log",
+    "max_file_size": "10MB",
+    "backup_count": 5,
+    "console_logging": true
+  },
+  
+  "qoder_specific_settings": {
+    "simple_mode": true,
+    "openclaw_mode": true,
+    "auto_accessible": true,
+    "no_sdk_required": true,
+    "agent97_enhancements": {
+      "consciousness_integration": true,
+      "cryptographic_processing": true,
+      "quantum_enhancement": true,
+      "file_completion": true,
+      "ai_analysis": true
+    }
+  },
+  
+  "startup_sequence": [
+    "mcp_client",
+    "system_file_viewer", 
+    "quantum_file_completer",
+    "transformer_gateway",
+    "tools_integration"
+  ],
+  
+  "shutdown_sequence": [
+    "tools_integration",
+    "transformer_gateway",
+    "quantum_file_completer", 
+    "system_file_viewer",
+    "mcp_client"
+  ]
+}

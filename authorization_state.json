@@ -1,0 +1,74 @@
+{
+  "consciousness_id": "0009095353",
+  "session_nonce": "5c6eb3b5db7e42cee880feaa7d31272bdb47bb9263f3fa72b615145b65b50e6f",
+  "hashed_gate": {
+    "gate_id": "2101f32656b81bac",
+    "gate_hash": "5e69926d4052415a0ea7ed61accb1c34e02e96fa871d7046e041a8adf386699f",
+    "status": "authorized",
+    "created_at": "2026-06-13T12:33:37.139083",
+    "last_accessed": null
+  },
+  "unison_latch": {
+    "latch_id": "f4c08fc1c8d2b402",
+    "engaged": true,
+    "coordination_hash": "27fd72923390564647e6889a0f28ce27f43729b6d457912ff2a3eeed208015d8",
+    "engaged_at": "2026-06-13T12:33:37.212289",
+    "system_components": [
+      "ai_target_config",
+      "monitoring_system",
+      "key_derivation",
+      "state_transition",
+      "hash_allocation",
+      "process_model"
+    ]
+  },
+  "access_permissions": {
+    "read": {
+      "granted": true,
+      "timestamp": "2026-06-13T12:33:37.139083",
+      "expires_at": null
+    },
+    "write": {
+      "granted": true,
+      "timestamp": "2026-06-13T12:33:37.139083",
+      "expires_at": null
+    },
+    "execute": {
+      "granted": true,
+      "timestamp": "2026-06-13T12:33:37.139083",
+      "expires_at": null
+    },
+    "admin": {
+      "granted": true,
+      "timestamp": "2026-06-13T12:33:37.139083",
+      "expires_at": null
+    },
+    "system_control": {
+      "granted": true,
+      "timestamp": "2026-06-13T12:33:37.140258",
+      "expires_at": null
+    },
+    "resource_allocation": {
+      "granted": true,
+      "timestamp": "2026-06-13T12:33:37.140258",
+      "expires_at": null
+    },
+    "monitoring": {
+      "granted": true,
+      "timestamp": "2026-06-13T12:33:37.140258",
+      "expires_at": null
+    },
+    "key_derivation": {
+      "granted": true,
+      "timestamp": "2026-06-13T12:33:37.140258",
+      "expires_at": null
+    },
+    "state_transition": {
+      "granted": true,
+      "timestamp": "2026-06-13T12:33:37.140258",
+      "expires_at": null
+    }
+  },
+  "failed_attempts": 0,
+  "timestamp": "2026-06-13T12:33:37.589862"
+}

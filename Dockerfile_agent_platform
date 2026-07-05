@@ -1,0 +1,52 @@
+# Agent Platform 2026 - Docker Configuration
+# Multi-stage build for production deployment
+
+# Base Python image
+FROM python:3.11-slim as base
+
+# Set environment variables
+ENV PYTHONPATH=/app
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    curl \
+    wget \
+    git \
+    build-essential \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Playwright browsers
+RUN playwright install chromium
+RUN playwright install-deps
+
+# Create app directory
+WORKDIR /app
+
+# Copy requirements and install Python dependencies
+COPY requirements_agent_platform.txt .
+RUN pip install --no-cache-dir -r requirements_agent_platform.txt
+
+# Copy application code
+COPY agent_platform_2026.py .
+COPY terminal_chat.py .
+COPY simple_terminal_chat.py .
+
+# Copy Raphael AI components if they exist
+COPY agent97_raphael_singularity.py . 2>/dev/null || echo "Raphael AI not found, skipping"
+
+# Create non-root user
+RUN useradd --create-home --shell /bin/bash appuser
+RUN chown -R appuser:appuser /app
+USER appuser
+
+# Health check
+HEALTHCHECK --interval=30s --timeout=30s --start-period=5s --retries=3 \
+    CMD curl -f http://localhost:8000/ || exit 1
+
+# Expose port
+EXPOSE 8000
+
+# Default command
+CMD ["python", "agent_platform_2026.py"]

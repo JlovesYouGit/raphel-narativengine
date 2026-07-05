@@ -1,0 +1,85 @@
+# Agent Platform 2026 - Best Multi-Agent Framework Stack
+# Based on 2026 best practices research
+
+# Core Framework Dependencies
+langgraph>=0.2.0
+pydantic-ai>=0.0.14
+openai-agents>=0.1.0
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+
+# Browser Automation
+playwright>=1.40.0
+playwright-stealth>=1.0.6
+
+# Data Validation & Schemas
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# Async & HTTP
+aiohttp>=3.9.0
+aiofiles>=23.2.0
+httpx>=0.25.0
+
+# Observability & Monitoring
+langfuse>=2.0.0
+opentelemetry-api>=1.21.0
+opentelemetry-sdk>=1.21.0
+opentelemetry-instrumentation-fastapi>=0.42b0
+opentelemetry-instrumentation-logging>=0.42b0
+
+# MCP (Model Context Protocol)
+mcp>=1.0.0
+
+# Database & Caching
+redis>=5.0.0
+sqlalchemy>=2.0.0
+alembic>=1.13.0
+
+# Background Tasks & Queues
+celery>=5.3.0
+kombu>=5.3.0
+
+# Security & Authentication
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+python-multipart>=0.0.6
+
+# Utilities
+python-dotenv>=1.0.0
+click>=8.1.0
+rich>=13.7.0
+typer>=0.9.0
+
+# Development & Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+black>=23.11.0
+isort>=5.12.0
+mypy>=1.7.0
+pre-commit>=3.5.0
+
+# Documentation
+mkdocs>=1.5.0
+mkdocs-material>=9.4.0
+mkdocstrings[python]>=0.24.0
+
+# Optional: GPU Support (if available)
+# torch>=2.1.0
+# transformers>=4.36.0
+
+# Optional: Advanced ML
+# scikit-learn>=1.3.0
+# numpy>=1.24.0
+# pandas>=2.1.0
+
+# Optional: Vector Storage
+# chromadb>=0.4.0
+# pinecone-client>=2.2.0
+# weaviate-client>=3.24.0
+
+# Optional: Advanced Observability
+# arize-otel>=0.3.0
+# datadog>=0.44.0
+# newrelic>=9.2.0

@@ -1,0 +1,104 @@
+{
+  "gai-c7d137b36d20c7ffd7d495d35579273b656c571a6b8f9dfb": {
+    "api_key": "gai-c7d137b36d20c7ffd7d495d35579273b656c571a6b8f9dfb",
+    "service": "god_ai",
+    "user_id": "god_ai_user",
+    "created_at": "2026-04-12T13:09:33.280752",
+    "expires_at": "2027-04-12T13:09:33.280752",
+    "gateway_code": "9F0E5158-8A18-52B0-4A1E",
+    "gateway_url": "http://localhost:8001",
+    "status": "active",
+    "usage_count": 0,
+    "last_used": null,
+    "permissions": [
+      "read",
+      "write",
+      "execute",
+      "god_mode",
+      "unlimited_access",
+      "quadrillion_worlds"
+    ],
+    "rate_limit": {
+      "requests_per_minute": 10000,
+      "requests_per_hour": 1000000
+    },
+    "seed": "c7d137b36d20c7ffd7d495d35579273b656c571a6b8f9dfb8098a6d3387e5b0b",
+    "random_component": "oWIJEEe7TZPYi7lFjAD1Y-P--FoMuWQ6OlBckMFaL6E"
+  },
+  "sk-e137557942a2f196aa10a0bf57f1a94f49bf09ef519f6a68": {
+    "api_key": "sk-e137557942a2f196aa10a0bf57f1a94f49bf09ef519f6a68",
+    "service": "openai",
+    "user_id": "god_ai_user",
+    "created_at": "2026-04-12T13:09:33.331678",
+    "expires_at": "2027-04-12T13:09:33.331678",
+    "gateway_code": "51A7877B-5AB7-BEDE-A47A",
+    "gateway_url": "http://localhost:8001",
+    "status": "active",
+    "usage_count": 0,
+    "last_used": null,
+    "permissions": [
+      "read",
+      "write",
+      "execute",
+      "llm_access",
+      "gpt_models"
+    ],
+    "rate_limit": {
+      "requests_per_minute": 60,
+      "requests_per_hour": 3600
+    },
+    "seed": "e137557942a2f196aa10a0bf57f1a94f49bf09ef519f6a6827b7a98948865ce7",
+    "random_component": "l_Wm7pwZBqceJBn3JXkrWOhh5wdBMqJzKidCI2po1MQ"
+  },
+  "gai-4ef3fb74397173f45271be27d34d3d46489bcd95622e4926": {
+    "api_key": "gai-4ef3fb74397173f45271be27d34d3d46489bcd95622e4926",
+    "service": "god_ai",
+    "user_id": "god_ai_user",
+    "created_at": "2026-04-12T13:15:12.532907",
+    "expires_at": "2027-04-12T13:15:12.532907",
+    "gateway_code": "5B3E0E6A-DA94-F5A2-EC52",
+    "gateway_url": "http://localhost:8001",
+    "status": "active",
+    "usage_count": 0,
+    "last_used": null,
+    "permissions": [
+      "read",
+      "write",
+      "execute",
+      "god_mode",
+      "unlimited_access",
+      "quadrillion_worlds"
+    ],
+    "rate_limit": {
+      "requests_per_minute": 10000,
+      "requests_per_hour": 1000000
+    },
+    "seed": "4ef3fb74397173f45271be27d34d3d46489bcd95622e49262a4616bb6d8e5b9d",
+    "random_component": "w6K0scVy7H-G1mvKR_DDxxI6Ou71hoQLRScpItjQ6kA"
+  },
+  "sk-6999a176cc27d6da3b4bf38bd8f21725e7d69b3f8dc6c311": {
+    "api_key": "sk-6999a176cc27d6da3b4bf38bd8f21725e7d69b3f8dc6c311",
+    "service": "openai",
+    "user_id": "god_ai_user",
+    "created_at": "2026-04-12T13:15:12.541377",
+    "expires_at": "2027-04-12T13:15:12.541377",
+    "gateway_code": "95C10C01-76B2-0D15-D44C",
+    "gateway_url": "http://localhost:8001",
+    "status": "active",
+    "usage_count": 0,
+    "last_used": null,
+    "permissions": [
+      "read",
+      "write",
+      "execute",
+      "llm_access",
+      "gpt_models"
+    ],
+    "rate_limit": {
+      "requests_per_minute": 60,
+      "requests_per_hour": 3600
+    },
+    "seed": "6999a176cc27d6da3b4bf38bd8f21725e7d69b3f8dc6c311e7df432ef28532e0",
+    "random_component": "fMd8znYJNg2GZRYv4M7-3H5gb5_iOI2WYIXnQwL5OOs"
+  }
+}
