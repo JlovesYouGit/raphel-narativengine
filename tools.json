@@ -1,0 +1,54 @@
+{
+  "browser_control": {
+    "enabled": true,
+    "features": [
+      "snapshots",
+      "actions",
+      "uploads",
+      "profiles"
+    ],
+    "safety": "sandboxed"
+  },
+  "canvas": {
+    "enabled": true,
+    "features": [
+      "push",
+      "reset",
+      "eval",
+      "snapshot"
+    ],
+    "safety": "isolated"
+  },
+  "nodes": {
+    "camera": {
+      "enabled": false,
+      "safety": "permission_required"
+    },
+    "screen": {
+      "enabled": false,
+      "safety": "permission_required"
+    },
+    "location": {
+      "enabled": false,
+      "safety": "permission_required"
+    },
+    "notifications": {
+      "enabled": true,
+      "safety": "safe"
+    }
+  },
+  "automation": {
+    "cron": {
+      "enabled": true,
+      "safety": "limited"
+    },
+    "webhooks": {
+      "enabled": true,
+      "safety": "validated"
+    },
+    "gmail": {
+      "enabled": false,
+      "safety": "auth_required"
+    }
+  }
+}

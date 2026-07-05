@@ -1,0 +1,26 @@
+{
+  "bundled": {
+    "assistant": {
+      "enabled": true,
+      "description": "General assistant skills"
+    },
+    "developer": {
+      "enabled": true,
+      "description": "Developer-focused skills"
+    },
+    "analyst": {
+      "enabled": true,
+      "description": "Data analysis skills"
+    }
+  },
+  "managed": {
+    "custom": {
+      "enabled": true,
+      "description": "Custom user skills"
+    },
+    "workspace": {
+      "enabled": true,
+      "description": "Workspace-specific skills"
+    }
+  }
+}

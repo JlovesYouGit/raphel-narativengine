@@ -1,0 +1,339 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-04-18T15:10:17.298Z",
+  "total_skills": 16,
+  "skills": {
+    "https___github_com_example_repo": {
+      "id": "https___github_com_example_repo",
+      "name": "example/repo",
+      "type": "github_repo",
+      "url": "https://github.com/example/repo",
+      "description": "Auto-discovered GitHub repository: example/repo",
+      "capabilities": [
+        "repository_analysis",
+        "code_inspection",
+        "issue_monitoring",
+        "dependency_analysis"
+      ],
+      "keywords": [
+        "github",
+        "repository",
+        "code"
+      ],
+      "discovered_at": "2026-03-28T19:06:26.390Z",
+      "integration_method": "api"
+    },
+    "https___api_example_com_docs": {
+      "id": "https___api_example_com_docs",
+      "name": "example.com/docs",
+      "type": "api_endpoint",
+      "url": "https://api.example.com/docs",
+      "description": "Auto-discovered API endpoint: example.com/docs",
+      "capabilities": [
+        "data_retrieval",
+        "api_interaction",
+        "automation",
+        "monitoring"
+      ],
+      "keywords": [
+        "api",
+        "rest",
+        "data"
+      ],
+      "discovered_at": "2026-03-28T19:06:26.391Z",
+      "integration_method": "rest"
+    },
+    "https___github_com_awesome_project": {
+      "id": "https___github_com_awesome_project",
+      "name": "awesome/project",
+      "type": "github_repo",
+      "url": "https://github.com/awesome/project",
+      "description": "Auto-discovered GitHub repository: awesome/project",
+      "capabilities": [
+        "repository_analysis",
+        "code_inspection",
+        "issue_monitoring",
+        "dependency_analysis"
+      ],
+      "keywords": [
+        "github",
+        "repository",
+        "code"
+      ],
+      "discovered_at": "2026-03-28T19:06:26.391Z",
+      "integration_method": "api"
+    },
+    "https___github_com_openai_gpt": {
+      "id": "https___github_com_openai_gpt",
+      "name": "openai/gpt",
+      "type": "github_repo",
+      "url": "https://github.com/openai/gpt",
+      "description": "Auto-discovered GitHub repository: openai/gpt",
+      "capabilities": [
+        "repository_analysis",
+        "code_inspection",
+        "issue_monitoring",
+        "dependency_analysis"
+      ],
+      "keywords": [
+        "github",
+        "repository",
+        "code",
+        "ai",
+        "gpt",
+        "llm"
+      ],
+      "discovered_at": "2026-03-28T19:03:58.680Z",
+      "integration_method": "api"
+    },
+    "https___github_com_microsoft_vscode": {
+      "id": "https___github_com_microsoft_vscode",
+      "name": "microsoft/vscode",
+      "type": "github_repo",
+      "url": "https://github.com/microsoft/vscode",
+      "description": "Auto-discovered GitHub repository: microsoft/vscode",
+      "capabilities": [
+        "repository_analysis",
+        "code_inspection",
+        "issue_monitoring",
+        "dependency_analysis"
+      ],
+      "keywords": [
+        "github",
+        "repository",
+        "code",
+        "microsoft",
+        "vscode",
+        "tools"
+      ],
+      "discovered_at": "2026-03-28T19:03:58.680Z",
+      "integration_method": "api"
+    },
+    "https___api_github_com_users": {
+      "id": "https___api_github_com_users",
+      "name": "unknown-repo",
+      "type": "github_repo",
+      "url": "https://api.github.com/users",
+      "description": "Auto-discovered GitHub repository: unknown-repo",
+      "capabilities": [
+        "repository_analysis",
+        "code_inspection",
+        "issue_monitoring",
+        "dependency_analysis"
+      ],
+      "keywords": [
+        "github",
+        "repository",
+        "code",
+        "api",
+        "rest",
+        "data"
+      ],
+      "discovered_at": "2026-03-28T19:03:58.681Z",
+      "integration_method": "api"
+    },
+    "https___api_example_com_v1_data": {
+      "id": "https___api_example_com_v1_data",
+      "name": "example.com/v1/data",
+      "type": "api_endpoint",
+      "url": "https://api.example.com/v1/data",
+      "description": "Auto-discovered API endpoint: example.com/v1/data",
+      "capabilities": [
+        "data_retrieval",
+        "api_interaction",
+        "automation",
+        "monitoring"
+      ],
+      "keywords": [
+        "api",
+        "rest",
+        "data"
+      ],
+      "discovered_at": "2026-03-28T19:03:58.681Z",
+      "integration_method": "rest"
+    },
+    "https___github_com_ranaroussi_yfinance": {
+      "id": "https___github_com_ranaroussi_yfinance",
+      "name": "ranaroussi/yfinance",
+      "type": "github_repo",
+      "url": "https://github.com/ranaroussi/yfinance",
+      "description": "Auto-discovered GitHub repository: ranaroussi/yfinance",
+      "capabilities": [
+        "repository_analysis",
+        "code_inspection",
+        "issue_monitoring",
+        "dependency_analysis"
+      ],
+      "keywords": [
+        "github",
+        "repository",
+        "code"
+      ],
+      "discovered_at": "2026-03-28T19:07:41.631Z",
+      "integration_method": "api"
+    },
+    "https___github_com_ai4finance_foundation_finrl": {
+      "id": "https___github_com_ai4finance_foundation_finrl",
+      "name": "AI4Finance-Foundation/FinRL",
+      "type": "github_repo",
+      "url": "https://github.com/AI4Finance-Foundation/FinRL",
+      "description": "Auto-discovered GitHub repository: AI4Finance-Foundation/FinRL",
+      "capabilities": [
+        "repository_analysis",
+        "code_inspection",
+        "issue_monitoring",
+        "dependency_analysis"
+      ],
+      "keywords": [
+        "github",
+        "repository",
+        "code"
+      ],
+      "discovered_at": "2026-03-28T19:07:41.632Z",
+      "integration_method": "api"
+    },
+    "https___github_com_tensorflow_tensorflow": {
+      "id": "https___github_com_tensorflow_tensorflow",
+      "name": "tensorflow/tensorflow",
+      "type": "github_repo",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "description": "Auto-discovered GitHub repository: tensorflow/tensorflow",
+      "capabilities": [
+        "repository_analysis",
+        "code_inspection",
+        "issue_monitoring",
+        "dependency_analysis"
+      ],
+      "keywords": [
+        "github",
+        "repository",
+        "code"
+      ],
+      "discovered_at": "2026-03-28T19:07:53.123Z",
+      "integration_method": "api"
+    },
+    "https___github_com_pytorch_pytorch": {
+      "id": "https___github_com_pytorch_pytorch",
+      "name": "pytorch/pytorch",
+      "type": "github_repo",
+      "url": "https://github.com/pytorch/pytorch",
+      "description": "Auto-discovered GitHub repository: pytorch/pytorch",
+      "capabilities": [
+        "repository_analysis",
+        "code_inspection",
+        "issue_monitoring",
+        "dependency_analysis"
+      ],
+      "keywords": [
+        "github",
+        "repository",
+        "code"
+      ],
+      "discovered_at": "2026-03-28T19:07:53.124Z",
+      "integration_method": "api"
+    },
+    "https___github_com_huggingface_transformers": {
+      "id": "https___github_com_huggingface_transformers",
+      "name": "huggingface/transformers",
+      "type": "github_repo",
+      "url": "https://github.com/huggingface/transformers",
+      "description": "Auto-discovered GitHub repository: huggingface/transformers",
+      "capabilities": [
+        "repository_analysis",
+        "code_inspection",
+        "issue_monitoring",
+        "dependency_analysis"
+      ],
+      "keywords": [
+        "github",
+        "repository",
+        "code"
+      ],
+      "discovered_at": "2026-03-28T19:07:53.124Z",
+      "integration_method": "api"
+    },
+    "https___github_com_facebook_react": {
+      "id": "https___github_com_facebook_react",
+      "name": "facebook/react",
+      "type": "github_repo",
+      "url": "https://github.com/facebook/react",
+      "description": "Auto-discovered GitHub repository: facebook/react",
+      "capabilities": [
+        "repository_analysis",
+        "code_inspection",
+        "issue_monitoring",
+        "dependency_analysis"
+      ],
+      "keywords": [
+        "github",
+        "repository",
+        "code"
+      ],
+      "discovered_at": "2026-03-28T19:08:03.757Z",
+      "integration_method": "api"
+    },
+    "https___github_com_vuejs_vue": {
+      "id": "https___github_com_vuejs_vue",
+      "name": "vuejs/vue",
+      "type": "github_repo",
+      "url": "https://github.com/vuejs/vue",
+      "description": "Auto-discovered GitHub repository: vuejs/vue",
+      "capabilities": [
+        "repository_analysis",
+        "code_inspection",
+        "issue_monitoring",
+        "dependency_analysis"
+      ],
+      "keywords": [
+        "github",
+        "repository",
+        "code"
+      ],
+      "discovered_at": "2026-03-28T19:08:03.758Z",
+      "integration_method": "api"
+    },
+    "https___github_com_nodejs_node": {
+      "id": "https___github_com_nodejs_node",
+      "name": "nodejs/node",
+      "type": "github_repo",
+      "url": "https://github.com/nodejs/node",
+      "description": "Auto-discovered GitHub repository: nodejs/node",
+      "capabilities": [
+        "repository_analysis",
+        "code_inspection",
+        "issue_monitoring",
+        "dependency_analysis"
+      ],
+      "keywords": [
+        "github",
+        "repository",
+        "code"
+      ],
+      "discovered_at": "2026-04-18T15:10:17.295Z",
+      "integration_method": "api"
+    },
+    "https___api_openai_com_v1_completions": {
+      "id": "https___api_openai_com_v1_completions",
+      "name": "openai.com/v1/completions",
+      "type": "api_endpoint",
+      "url": "https://api.openai.com/v1/completions",
+      "description": "Auto-discovered API endpoint: openai.com/v1/completions",
+      "capabilities": [
+        "data_retrieval",
+        "api_interaction",
+        "automation",
+        "monitoring"
+      ],
+      "keywords": [
+        "api",
+        "rest",
+        "data",
+        "ai",
+        "gpt",
+        "llm"
+      ],
+      "discovered_at": "2026-04-18T15:10:17.298Z",
+      "integration_method": "rest"
+    }
+  }
+}

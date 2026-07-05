@@ -1,0 +1,35 @@
+{
+  "integration": {
+    "mode": "safe",
+    "version": "1.0.0",
+    "created": "2026-03-28T18:49:14.525Z"
+  },
+  "features": {
+    "code_enhancement": {
+      "enabled": true,
+      "mode": "passive",
+      "auto_apply": false
+    },
+    "security_monitoring": {
+      "enabled": true,
+      "mode": "observational",
+      "alerts_only": true
+    },
+    "workflow_assistance": {
+      "enabled": true,
+      "mode": "suggestive",
+      "auto_execute": false
+    }
+  },
+  "safety": {
+    "no_file_modification": true,
+    "no_process_injection": true,
+    "no_windsurf_interference": true,
+    "read_only_mode": true
+  },
+  "windsurf": {
+    "respect_existing_features": true,
+    "no_crash_prevention": true,
+    "compatibility_mode": true
+  }
+}

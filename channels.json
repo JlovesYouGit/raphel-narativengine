@@ -1,0 +1,59 @@
+{
+  "whatsapp": {
+    "enabled": true,
+    "library": "Baileys",
+    "features": [
+      "text",
+      "media",
+      "voice",
+      "groups"
+    ]
+  },
+  "telegram": {
+    "enabled": true,
+    "library": "grammY",
+    "features": [
+      "text",
+      "media",
+      "voice",
+      "groups"
+    ]
+  },
+  "slack": {
+    "enabled": true,
+    "library": "Bolt",
+    "features": [
+      "text",
+      "media",
+      "files",
+      "threads"
+    ]
+  },
+  "discord": {
+    "enabled": true,
+    "library": "discord.js",
+    "features": [
+      "text",
+      "media",
+      "voice",
+      "channels"
+    ]
+  },
+  "signal": {
+    "enabled": false,
+    "library": "signal-cli",
+    "features": [
+      "text",
+      "media"
+    ]
+  },
+  "webchat": {
+    "enabled": true,
+    "library": "native",
+    "features": [
+      "text",
+      "media",
+      "real-time"
+    ]
+  }
+}

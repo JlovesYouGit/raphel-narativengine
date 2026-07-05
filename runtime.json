@@ -1,0 +1,37 @@
+{
+  "channel_routing": {
+    "enabled": true,
+    "safety": "validated"
+  },
+  "retry_policy": {
+    "enabled": true,
+    "max_retries": 3
+  },
+  "streaming": {
+    "enabled": true,
+    "chunk_size": 1024
+  },
+  "presence": {
+    "enabled": true,
+    "update_interval": 30000
+  },
+  "typing_indicators": {
+    "enabled": true
+  },
+  "usage_tracking": {
+    "enabled": true,
+    "retention_days": 30
+  },
+  "models": {
+    "failover": true,
+    "fallback": "safe"
+  },
+  "session_pruning": {
+    "enabled": true,
+    "max_age": 3600000
+  },
+  "security": {
+    "encryption": true,
+    "authentication": "token"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "gateway": {
+    "control_plane": true,
+    "sessions": true,
+    "presence": true,
+    "config": true,
+    "cron": true,
+    "webhooks": true,
+    "control_ui": true,
+    "canvas_host": true
+  },
+  "cli": {
+    "gateway": true,
+    "agent": true,
+    "send": true,
+    "onboarding": true,
+    "doctor": true
+  },
+  "agent_runtime": {
+    "rpc_mode": true,
+    "tool_streaming": true,
+    "block_streaming": true
+  },
+  "session_model": {
+    "main_chat": true,
+    "group_isolation": true,
+    "activation_modes": true,
+    "queue_modes": true,
+    "reply_back": true
+  },
+  "media_pipeline": {
+    "images": true,
+    "audio": true,
+    "video": true,
+    "transcription_hooks": true,
+    "size_caps": true,
+    "temp_file_lifecycle": true
+  }
+}

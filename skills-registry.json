@@ -1,0 +1,653 @@
+{
+  "version": "1.0.0",
+  "total_skills": 22,
+  "categories": {
+    "coding_agents": {
+      "name": "Coding Agents & IDEs",
+      "description": "AI-powered coding assistance and IDE integrations",
+      "skills": [
+        "0g-compute",
+        "2nd-brain",
+        "academic-research"
+      ],
+      "count": 3
+    },
+    "browser_automation": {
+      "name": "Browser & Automation",
+      "description": "Web automation, browser control, and testing",
+      "skills": [
+        "agent-browser",
+        "2captcha",
+        "airtable-automation"
+      ],
+      "count": 3
+    },
+    "web_development": {
+      "name": "Web & Frontend Development",
+      "description": "Web development, frontend frameworks, and UI tools",
+      "skills": [
+        "3d-model-generation",
+        "2slides-skills"
+      ],
+      "count": 2
+    },
+    "devops_cloud": {
+      "name": "DevOps & Cloud",
+      "description": "Cloud services, DevOps automation, and infrastructure",
+      "skills": [
+        "active-maintenance",
+        "agent-audit"
+      ],
+      "count": 2
+    },
+    "ai_llm": {
+      "name": "AI & LLMs",
+      "description": "AI models, LLM integrations, and machine learning",
+      "skills": [
+        "admet-prediction",
+        "ai-hunter-pro"
+      ],
+      "count": 2
+    },
+    "data_analytics": {
+      "name": "Data & Analytics",
+      "description": "Data processing, analytics, and visualization",
+      "skills": [
+        "a-share-real-time-data",
+        "ak-rss-24h-brief"
+      ],
+      "count": 2
+    },
+    "productivity": {
+      "name": "Productivity & Tasks",
+      "description": "Task management, productivity tools, and automation",
+      "skills": [
+        "adhd-founder-planner",
+        "agent-daily-planner"
+      ],
+      "count": 2
+    },
+    "security": {
+      "name": "Security & Passwords",
+      "description": "Security tools, password management, and protection",
+      "skills": [
+        "abaddon",
+        "agentaudit"
+      ],
+      "count": 2
+    },
+    "communication": {
+      "name": "Communication",
+      "description": "Email, messaging, and communication tools",
+      "skills": [
+        "activecampaign",
+        "ai-meeting-scheduling"
+      ],
+      "count": 2
+    },
+    "media_streaming": {
+      "name": "Media & Streaming",
+      "description": "Media processing, streaming, and content creation",
+      "skills": [
+        "acestep-simplemv",
+        "a-vtuber"
+      ],
+      "count": 2
+    }
+  },
+  "skill_index": {
+    "0g-compute": {
+      "name": "0G Compute Network",
+      "category": "coding_agents",
+      "description": "Use cheap, TEE-verified AI models from 0G Compute Network",
+      "keywords": [
+        "ai models",
+        "compute",
+        "tee",
+        "verified"
+      ]
+    },
+    "2nd-brain": {
+      "name": "2nd Brain",
+      "category": "coding_agents",
+      "description": "Personal knowledge base for capturing and retrieving information",
+      "keywords": [
+        "knowledge",
+        "memory",
+        "information",
+        "recall"
+      ]
+    },
+    "academic-research": {
+      "name": "Academic Research",
+      "category": "coding_agents",
+      "description": "Search academic papers and conduct literature reviews",
+      "keywords": [
+        "research",
+        "papers",
+        "academic",
+        "literature"
+      ]
+    },
+    "agent-browser": {
+      "name": "Agent Browser",
+      "category": "browser_automation",
+      "description": "Automates browser interactions for web testing and forms",
+      "keywords": [
+        "browser",
+        "automation",
+        "web",
+        "testing",
+        "forms"
+      ]
+    },
+    "2captcha": {
+      "name": "2Captcha Solver",
+      "category": "browser_automation",
+      "description": "Solve CAPTCHAs using 2Captcha service",
+      "keywords": [
+        "captcha",
+        "solve",
+        "automation",
+        "verification"
+      ]
+    },
+    "airtable-automation": {
+      "name": "Airtable Automation",
+      "category": "browser_automation",
+      "description": "Automate Airtable tasks and data management",
+      "keywords": [
+        "airtable",
+        "automation",
+        "database",
+        "tasks"
+      ]
+    },
+    "3d-model-generation": {
+      "name": "3D Model Generation",
+      "category": "web_development",
+      "description": "Generate 3D models using AI",
+      "keywords": [
+        "3d",
+        "model",
+        "generation",
+        "graphics",
+        "webgl"
+      ]
+    },
+    "2slides-skills": {
+      "name": "2Slides Presentation",
+      "category": "web_development",
+      "description": "AI-powered presentation generation",
+      "keywords": [
+        "presentation",
+        "slides",
+        "powerpoint",
+        "deck"
+      ]
+    },
+    "active-maintenance": {
+      "name": "Active Maintenance",
+      "category": "devops_cloud",
+      "description": "Automated system health and memory monitoring",
+      "keywords": [
+        "maintenance",
+        "health",
+        "monitoring",
+        "system"
+      ]
+    },
+    "agent-audit": {
+      "name": "Agent Audit",
+      "category": "devops_cloud",
+      "description": "Audit AI agent setup for performance, cost, and ROI",
+      "keywords": [
+        "audit",
+        "performance",
+        "cost",
+        "roi",
+        "analysis"
+      ]
+    },
+    "admet-prediction": {
+      "name": "ADMET Prediction",
+      "category": "ai_llm",
+      "description": "Drug candidate ADMET prediction",
+      "keywords": [
+        "admet",
+        "drug",
+        "prediction",
+        "pharmaceutical",
+        "toxicity"
+      ]
+    },
+    "ai-hunter-pro": {
+      "name": "AI Hunter Pro",
+      "category": "ai_llm",
+      "description": "Turn trends into viral social media posts",
+      "keywords": [
+        "social media",
+        "viral",
+        "trends",
+        "marketing",
+        "content"
+      ]
+    },
+    "a-share-real-time-data": {
+      "name": "A-Share Real-time Data",
+      "category": "data_analytics",
+      "description": "China A-share stock market data and analysis",
+      "keywords": [
+        "stock",
+        "market",
+        "data",
+        "china",
+        "trading",
+        "finance"
+      ]
+    },
+    "ak-rss-24h-brief": {
+      "name": "RSS 24h Brief",
+      "category": "data_analytics",
+      "description": "Read RSS feeds and generate categorized briefs",
+      "keywords": [
+        "rss",
+        "feeds",
+        "news",
+        "brief",
+        "categorize"
+      ]
+    },
+    "adhd-founder-planner": {
+      "name": "ADHD Founder Planner",
+      "category": "productivity",
+      "description": "Daily planning system optimized for ADHD founders",
+      "keywords": [
+        "planning",
+        "adhd",
+        "founder",
+        "daily",
+        "schedule"
+      ]
+    },
+    "agent-daily-planner": {
+      "name": "Agent Daily Planner",
+      "category": "productivity",
+      "description": "Structured daily planning and execution tracking",
+      "keywords": [
+        "planning",
+        "daily",
+        "tracking",
+        "execution",
+        "schedule"
+      ]
+    },
+    "abaddon": {
+      "name": "Abaddon Security",
+      "category": "security",
+      "description": "Red team security mode for OpenClaw",
+      "keywords": [
+        "security",
+        "red team",
+        "penetration",
+        "testing",
+        "audit"
+      ]
+    },
+    "agentaudit": {
+      "name": "Agent Audit Security",
+      "category": "security",
+      "description": "Security gate for package vulnerability checking",
+      "keywords": [
+        "security",
+        "audit",
+        "vulnerability",
+        "packages",
+        "scanning"
+      ]
+    },
+    "activecampaign": {
+      "name": "ActiveCampaign CRM",
+      "category": "communication",
+      "description": "ActiveCampaign CRM integration for lead management",
+      "keywords": [
+        "crm",
+        "leads",
+        "campaign",
+        "marketing",
+        "sales"
+      ]
+    },
+    "ai-meeting-scheduling": {
+      "name": "AI Meeting Scheduling",
+      "category": "communication",
+      "description": "Intelligent meeting scheduling and booking",
+      "keywords": [
+        "meeting",
+        "scheduling",
+        "booking",
+        "calendar",
+        "appointments"
+      ]
+    },
+    "acestep-simplemv": {
+      "name": "ACE Step Music Video",
+      "category": "media_streaming",
+      "description": "Render music videos from audio files and lyrics",
+      "keywords": [
+        "music",
+        "video",
+        "render",
+        "lyrics",
+        "audio"
+      ]
+    },
+    "a-vtuber": {
+      "name": "A VTuber Stream",
+      "category": "media_streaming",
+      "description": "Live stream as an AI VTuber",
+      "keywords": [
+        "vtuber",
+        "stream",
+        "live",
+        "avatar",
+        "entertainment"
+      ]
+    }
+  },
+  "routing_map": {
+    "ai models": [
+      "0g-compute"
+    ],
+    "compute": [
+      "0g-compute"
+    ],
+    "tee": [
+      "0g-compute"
+    ],
+    "verified": [
+      "0g-compute"
+    ],
+    "knowledge": [
+      "2nd-brain"
+    ],
+    "memory": [
+      "2nd-brain"
+    ],
+    "information": [
+      "2nd-brain"
+    ],
+    "recall": [
+      "2nd-brain"
+    ],
+    "research": [
+      "academic-research"
+    ],
+    "papers": [
+      "academic-research"
+    ],
+    "academic": [
+      "academic-research"
+    ],
+    "literature": [
+      "academic-research"
+    ],
+    "browser": [
+      "agent-browser"
+    ],
+    "automation": [
+      "agent-browser",
+      "2captcha",
+      "airtable-automation"
+    ],
+    "web": [
+      "agent-browser"
+    ],
+    "testing": [
+      "agent-browser",
+      "abaddon"
+    ],
+    "forms": [
+      "agent-browser"
+    ],
+    "captcha": [
+      "2captcha"
+    ],
+    "solve": [
+      "2captcha"
+    ],
+    "verification": [
+      "2captcha"
+    ],
+    "airtable": [
+      "airtable-automation"
+    ],
+    "database": [
+      "airtable-automation"
+    ],
+    "tasks": [
+      "airtable-automation"
+    ],
+    "3d": [
+      "3d-model-generation"
+    ],
+    "model": [
+      "3d-model-generation"
+    ],
+    "generation": [
+      "3d-model-generation"
+    ],
+    "graphics": [
+      "3d-model-generation"
+    ],
+    "webgl": [
+      "3d-model-generation"
+    ],
+    "presentation": [
+      "2slides-skills"
+    ],
+    "slides": [
+      "2slides-skills"
+    ],
+    "powerpoint": [
+      "2slides-skills"
+    ],
+    "deck": [
+      "2slides-skills"
+    ],
+    "maintenance": [
+      "active-maintenance"
+    ],
+    "health": [
+      "active-maintenance"
+    ],
+    "monitoring": [
+      "active-maintenance"
+    ],
+    "system": [
+      "active-maintenance"
+    ],
+    "audit": [
+      "agent-audit",
+      "abaddon",
+      "agentaudit"
+    ],
+    "performance": [
+      "agent-audit"
+    ],
+    "cost": [
+      "agent-audit"
+    ],
+    "roi": [
+      "agent-audit"
+    ],
+    "analysis": [
+      "agent-audit"
+    ],
+    "admet": [
+      "admet-prediction"
+    ],
+    "drug": [
+      "admet-prediction"
+    ],
+    "prediction": [
+      "admet-prediction"
+    ],
+    "pharmaceutical": [
+      "admet-prediction"
+    ],
+    "toxicity": [
+      "admet-prediction"
+    ],
+    "social media": [
+      "ai-hunter-pro"
+    ],
+    "viral": [
+      "ai-hunter-pro"
+    ],
+    "trends": [
+      "ai-hunter-pro"
+    ],
+    "marketing": [
+      "ai-hunter-pro",
+      "activecampaign"
+    ],
+    "content": [
+      "ai-hunter-pro"
+    ],
+    "stock": [
+      "a-share-real-time-data"
+    ],
+    "market": [
+      "a-share-real-time-data"
+    ],
+    "data": [
+      "a-share-real-time-data"
+    ],
+    "china": [
+      "a-share-real-time-data"
+    ],
+    "trading": [
+      "a-share-real-time-data"
+    ],
+    "finance": [
+      "a-share-real-time-data"
+    ],
+    "rss": [
+      "ak-rss-24h-brief"
+    ],
+    "feeds": [
+      "ak-rss-24h-brief"
+    ],
+    "news": [
+      "ak-rss-24h-brief"
+    ],
+    "brief": [
+      "ak-rss-24h-brief"
+    ],
+    "categorize": [
+      "ak-rss-24h-brief"
+    ],
+    "planning": [
+      "adhd-founder-planner",
+      "agent-daily-planner"
+    ],
+    "adhd": [
+      "adhd-founder-planner"
+    ],
+    "founder": [
+      "adhd-founder-planner"
+    ],
+    "daily": [
+      "adhd-founder-planner",
+      "agent-daily-planner"
+    ],
+    "schedule": [
+      "adhd-founder-planner",
+      "agent-daily-planner"
+    ],
+    "tracking": [
+      "agent-daily-planner"
+    ],
+    "execution": [
+      "agent-daily-planner"
+    ],
+    "security": [
+      "abaddon",
+      "agentaudit"
+    ],
+    "red team": [
+      "abaddon"
+    ],
+    "penetration": [
+      "abaddon"
+    ],
+    "vulnerability": [
+      "agentaudit"
+    ],
+    "packages": [
+      "agentaudit"
+    ],
+    "scanning": [
+      "agentaudit"
+    ],
+    "crm": [
+      "activecampaign"
+    ],
+    "leads": [
+      "activecampaign"
+    ],
+    "campaign": [
+      "activecampaign"
+    ],
+    "sales": [
+      "activecampaign"
+    ],
+    "meeting": [
+      "ai-meeting-scheduling"
+    ],
+    "scheduling": [
+      "ai-meeting-scheduling"
+    ],
+    "booking": [
+      "ai-meeting-scheduling"
+    ],
+    "calendar": [
+      "ai-meeting-scheduling"
+    ],
+    "appointments": [
+      "ai-meeting-scheduling"
+    ],
+    "music": [
+      "acestep-simplemv"
+    ],
+    "video": [
+      "acestep-simplemv"
+    ],
+    "render": [
+      "acestep-simplemv"
+    ],
+    "lyrics": [
+      "acestep-simplemv"
+    ],
+    "audio": [
+      "acestep-simplemv"
+    ],
+    "vtuber": [
+      "a-vtuber"
+    ],
+    "stream": [
+      "a-vtuber"
+    ],
+    "live": [
+      "a-vtuber"
+    ],
+    "avatar": [
+      "a-vtuber"
+    ],
+    "entertainment": [
+      "a-vtuber"
+    ]
+  },
+  "last_updated": "2026-05-12T00:15:22.821Z"
+}
